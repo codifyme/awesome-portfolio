@@ -1,5 +1,5 @@
 /* --------------------------------- */
-/* Css Styles                        */
+/* CSS Styles                        */
 /*---------------------------------- */
 
 /* Table of Content
@@ -66,6 +66,9 @@ nav ul li a:hover {
 
 .logo {
     float: left;
+    margin-top: -20px;
+    margin-bottom: -25px;
+    margin-left: 30px;
 }
 
 .responsive {
@@ -496,14 +499,20 @@ input:-webkit-autofill {
 }
 
 .home-content h1 {
-    font-size: 40px;
-    color: #fff;
+    font-size: 35px;
+    color: black;
     font-weight: bold;
-    text-align: center;
-    letter-spacing: -3px;
-    /*margin-bottom: 20px;*/
+    /*text-align: justify;*/
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
+    /*margin-top: 20px;*/
+    letter-spacing: -3px;
+    opacity: 0.3;
+    background-color: #ffff;
+    align-content: flex-start;
+    /*background-image: url(../images/slider-1.jpg);*/
+    /*margin-bottom: 20px;*/
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -1177,7 +1186,7 @@ a.site-button {
 @media screen and (max-width: 991px) {
 
     .home-content h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .what-can .feature {
