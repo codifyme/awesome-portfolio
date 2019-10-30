@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset='UTF-8'>
+    <title>Soccer quiz Game</title>
+    <!-- CSS style sheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CDN -->
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header id="top">
+        <div class="container">
+            <h2 class="title">Soccer - Bible 2019</h2>
+
+            <!-- Start and Stop Buttons-->
+            <button id="start-button" class="btn btn-primary btn-sm">Start</button>
+            <button id="stop-button" class="btn btn-secondary btn-sm">Stop</button>
+
+        </div>
+
+    </header>
+    <!-- div class row -->
+    <!--<div id="container"></div>-->
+    <!---<body onload="startTime()">
+        <div id="text">Start</div>-->
+
+    <!--  container that almost hold part of the body -->
+    <div class="container">
+        <form class="col-sm-9 col-sm-offset-2">
+            <div class="form-group">
+                <p id="question0"></p><input id="answer0" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <p id="question1"></p><input id="answer1" type="text" class="form-control">
+            </div class="form-group">
+            <div>
+                <p id="question2"></p><input id="answer2" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <p id="question3"></p><input id="answer3" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <p id="question4">
+                </p><input id="answer4" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <p id="question5">
+                </p><input id="answer5" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <p id="question6">
+                </p><input id="answer6" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <p id="question7">
+                </p><input id="answer7" type="text" class="form-control">
+            </div>
+        </form>
+    </div>
+
+    <div class="countDown">
+        <div>
+            <p id="time-remaining"> Time Remaining </p>
+        </div>
+    </div>
+    <!--<div class="container">
+        <button id="start-button" class="btn btn-primary btn-sm">Start</button>
+        <button id="stop-button" class="btn btn-secondary btn-sm">Stop</button>
+    </div>-->
+
+
+    <!-- Floating the pictures from my favorite soccer players-->
+
+    </div><img style="float: left; margin: 0px 15px 15px 0px;" src="assets/images/LionelMessi.jpg" width="300"
+        height="340" /></div>
+    </div><img style="float: right; margin: 0px 15px 15px 0px;" src="assets/images/ronaldo.jpg" width="300"
+        height="340" /></div>
+
+
+    <!-- Test Results-->
+    </p><button type="button" onclick="testResults()" class="b btn btn-primary btn-lg">Achievement Results</button>
+
+    <!-- Correct and Incorrect answer -->
+    <h1 class="correct">Correct: <span id="correct"></span></h1>
+    <h1 class="incorrect">Incorrect: <span id="incorrect"></span></h1>
+    <button class="b btn btn-primary btn-lg"><a href="#top">Try one more time !</a></button></form>
+    </div>
+    <!--- JQuery-->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

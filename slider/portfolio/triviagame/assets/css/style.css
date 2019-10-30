@@ -1,0 +1,134 @@
+body {
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 15%;
+    background-image: url(../images/stadium-header3.jpg);
+}
+
+
+h2.title {
+    font-family: Impact, Charcoal, sans-serif;
+    color: lightgreen;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+form p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: .2em;
+    color: green;
+    font-size: 24px;
+    text-shadow: 1px 1px #ccc;
+}
+
+input.form-control {
+    width: 90%;
+    border: 3px solid #ccc;
+}
+
+
+
+.correct {
+    color: #00b3b3;
+    border-top: 3px dashed #000;
+}
+
+.incorrect {
+    color: #f00;
+}
+
+h1.correct,
+h1.incorrect {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: .3em;
+    text-shadow: 2px 2px #000;
+    padding: 5px;
+}
+
+button.btn {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #066;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.8);
+    text-decoration: none;
+    color: lightblue;
+    letter-spacing: .2em;
+    margin: 5% 0;
+    border: none;
+}
+
+button.btn:hover {
+    background-color: #00b3b3;
+
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: .2em;
+}
+
+#top {
+    align-content: center;
+}
+
+@media (max-width: 840px) {
+    h2.title {
+        font-size: 3em;
+    }
+}
+
+#demo {
+    font-family: Impact, Charcoal, sans-serif;
+    color: blueviolet;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#time-remaining {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    width: 80%;
+    margin: 0 auto;
+    /*float: center;*/
+    font-size: 200%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-display: bold;
+    align-content: center;
+
+}
+
+#start-button {
+    align-content: center;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-display: bold;
+    align-content: right;
+    letter-spacing: .2em;
+    margin: 5% 0;
+    border: none;
+    margin-left: 30%;
+
+}
+
+#stop-button {
+    align-content: center;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-display: bold;
+    letter-spacing: .2em;
+    margin: 5% 0;
+    border: none;
+    margin-left: 30%;
+}

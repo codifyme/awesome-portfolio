@@ -1,0 +1,56 @@
+body {
+    font-family: 'Fondamento', Georgia, 'Times New Roman', serif, cursive;
+    align-content: center;
+    color: yellowgreen;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    line-height: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.right {
+    width: 1024px;
+    height: 768px;
+    padding-top: 200px;
+    background-image: url("../images/gypsy-girl.jpg");
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    padding-left: 330px;
+}
+
+#won {
+    color: rgb(70, 223, 243);
+    font-size: 1.5em;
+}
+
+#lost {
+    color: lightgreen;
+    font-size: 30px;
+}
+
+#attempts {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#peopleGuess {
+    color: lightblue;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
