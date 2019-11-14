@@ -7,6 +7,8 @@ var port = process.env.PORT || 3000;
 
 var app = express();
 
+require('dotenv').config();
+
 //Serve static content for the app from the "Public" directory in the app directory
 app.use(express.static(process.cwd() + '/public'));
 

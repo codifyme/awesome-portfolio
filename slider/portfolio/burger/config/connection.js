@@ -1,24 +1,23 @@
 const mysql = require('mysql');
+
 var connection;
 
-const dotenv = require('dotenv');
-dotenv.config();
-const inquirer = require('inquirer');
+console.log(process.env.JAWSDB_YELLOW_URL);
 
-const MYSQL_PASS = process.env.MYSQL_PASS;
-
-if (process.env.JAWSDB_URL) {
+if (process.env.JAWSDB_YELLOW_URL) {
   //Database is JawsDB on Heroku
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
+  connection = mysql.createConnection(process.env.JAWSDB_YELLOW_URL);
+  console.log('Using remote database');
 } else {
   //Database is local
   connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: 'MYSQL_PASS',
+    password: 'marcelperu2019',
     database: 'burgers_db'
   });
+  console.log('Using local database');
 }
 //Make the connection to MYSQL
 connection.connect(function(err) {
