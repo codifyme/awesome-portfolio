@@ -4,7 +4,7 @@ My PORTFOLIO
 
 ## Description
 
-This portfolio will provide examples of my knowledge, skills and accomplishments regarding my education as a Full Stack Web Developer at UC Berkeley Extension. This portfolio bring examples of the Homework assignment and group project presentation that I have been working for the entire year. My portfolio is linked and connected to Github and Linkedln for those people that would like to know about me and 
+This portfolio will provide examples of my knowledge, skills and accomplishments regarding my education as a Full Stack Web Developer at UC Berkeley Extension Bootcamp. This portfolio bring examples of the Homework assignment and group project presentation that I have been working for the entire year. My portfolio is linked and connected to Github and Linkedln for those recruiter and people that would like to know about me and my experiences as web developer.
 
 Demo
 =======
